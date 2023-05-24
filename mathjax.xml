@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.9" method="upgrade">
+    <name>Editor - MathJax</name>
+    <creationDate>2023-04-18</creationDate>
+    <author>Patrick Araujo de Almeida</author>
+    <authorEmail>patrick.almeida@aluno.ufop.edu.br</authorEmail>
+    <version>1.0</version>
+    <description>Plugin do editor de texto para exibir fórmulas matemáticas utilizando o MathJax.</description>
+    <files>
+        <filename plugin="mathjax">mathjax.php</filename>
+        <filename plugin="mathjax">custombutton.php</filename>
+    </files>
+
+</extension>
